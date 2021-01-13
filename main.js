@@ -7,14 +7,15 @@ const hand = document.querySelector(".hand");
 //write a function to change the position of the hand.
 //create a variable and loop to increment the degree
 
-// let i = 0;
-// function changeHand() {
-//   hand.style.transform = `rotate(${i}deg)`;
-//   i = i + 6;
-//   console.log(i);
-// }
-// setInterval(changeHand, 1000);
+let i = 0;
+let date = new Date().getSeconds();  //Bonus task
+//console.log(date.getSeconds()); //Bonus task
 
-//Bonus task
-let date = new Date();
-console.log(date.getSeconds());
+function changeHand() {
+  hand.style.transform = `rotate(${i}deg)`;
+  i = i + 6;
+  console.log(i);
+}
+setInterval(changeHand, 1000);
+
+
