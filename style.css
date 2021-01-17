@@ -19,13 +19,25 @@ img {
   height: 300px;
   box-shadow: 0 0 40px 20px #0ff;
   border-radius: 100%;
-  animation: glow-pulse 5s linear 0s infinite;
+  animation: glow-pulse 2s linear 0s infinite;
 }
 .hand {
   position: absolute;
   height: 120px;
-  width: 5px;
+  width: 1px;
   border-top: 120px solid black;
+}
+.minute-hand {
+  position: absolute;
+  height: 120px;
+  width: 3px;
+  border-top: 120px solid rgb(173, 12, 12);
+}
+.hour-hand {
+  position: absolute;
+  height: 120px;
+  width: 5px;
+  border-top: 120px solid rgb(14, 99, 14);
 }
 .hide {
   display: none;
