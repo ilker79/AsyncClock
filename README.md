@@ -1,3 +1,8 @@
+School of Code adventure, 2nd Week.
+
+After learning more about JavaScript and async functions. I completed the tasks described below to make the clock tick. Most of the HTML and CSS were pre-coded by SoC coaches. I wrote the functionality in JavaScript and added minute and hour hands. I enjoyed making the clock work very much. 
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # What makes you tick?
 
 In this challenge, you will be using your newfound knowledge of setInterval to make the hand of this clock tick. Break down the problem, make a plan, and then translate it into code.
